@@ -30,5 +30,5 @@ public:
     const double ileMaki(unsigned P){
        return(double) P*L*W*(1.-R)*C;
     }
-    
+
 };
