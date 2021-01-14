@@ -1,10 +1,6 @@
 #include "catch.hpp"
-#include <iostream>
-#include <string>
-#include <array>
-#include <list>
-#include <algorithm>
-#include <vector>
+
+
 
 
 // Zad2
@@ -13,9 +9,10 @@
 
 class Makaron{
 public:
+    Makaron() = default;
     virtual const double ileMaki(unsigned)=0 ;
     static Makaron* gotujMakaron(const string&);
-    ~Makaron(){}
+   ~Makaron() = default;
 };
 
 // Zad1
