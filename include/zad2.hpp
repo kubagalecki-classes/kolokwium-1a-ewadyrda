@@ -6,14 +6,14 @@
 
 class Penne:public Makaron{
     public:
-    const double ileMaki(unsigned P){
-        return (double)P;
+    double ileMaki(unsigned P)const {
+        return P;
     }
 };
 
-Makaron* Makaron::gotujMakaron(const string& gotuj){
+inline Makaron* Makaron::gotujMakaron(const std::string& gotuj){
     if (gotuj.front()==gotuj.back())
         return new Tagliatelle(3.14, 0.42,0.1);
     else
-        return new Penne;
+        return new Penne();
 }
