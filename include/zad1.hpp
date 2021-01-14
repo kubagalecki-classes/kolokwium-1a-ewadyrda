@@ -11,6 +11,13 @@
 // tutaj definicja klasy Makaron
 // BEZ definicji metody gotujMakaron (tylko z deklaracją)
 
+class Makaron{
+public:
+    virtual const double ileMaki(unsigned)=0 ;
+    static Makaron* gotujMakaron(const string&);
+    ~Makaron(){}
+};
+
 // Zad1
 // tutaj definicja klasy Tagliatelle
 
