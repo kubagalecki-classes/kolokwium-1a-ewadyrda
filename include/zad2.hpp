@@ -5,6 +5,7 @@
 #include <type_traits>
 
 class Penne:public Makaron{
+    public:
     const double ileMaki(unsigned P){
         return (double)P;
     }
