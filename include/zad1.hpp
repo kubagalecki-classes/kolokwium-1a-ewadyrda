@@ -1,4 +1,11 @@
 #include "catch.hpp"
+#include <iostream>
+#include <string>
+#include <array>
+#include <list>
+#include <algorithm>
+#include <vector>
+
 
 // Zad2
 // tutaj definicja klasy Makaron
